@@ -1,5 +1,7 @@
 clc
 
+%creates a graph of the sums of each geometric series using an N value
+
 N = 50;  %to whatever N power. I used 50.
 x = (0:0.1:0.9)'; %x-values.
 sumGS = zeros(1,length(x))'; %initialize a sum vector.
